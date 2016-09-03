@@ -1,6 +1,6 @@
 # understanding_git
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+git config --global user.name "mir ali"
+git config --global user.email mirali@example.com
 
 git config --global core.editor emacs
 git config --list
@@ -14,6 +14,7 @@ git add LICENSE
 git commit -m "initial project version"
 
 git clone https://github.com/libgit2/libgit2
+
 git clone https://github.com/libgit2/libgit2 mylibgitgit clone https://github.com/libgit2/libgit2 mylibgit
 
 git status
@@ -21,6 +22,8 @@ git status
 .gitignore
 
 git diff
+
+Show changes to files in the staging area
 git diff --staged
 
 git add CONTRIBUTING.md
@@ -62,3 +65,10 @@ The oneline option prints each commit on a single line, which is useful if youâ€
 git log --pretty=format:"%h - %an, %ar : %s"
 
 git log --pretty=format:"%h %s" --graph
+
+to delete a branch
+git branch -d feature_x
+
+git diff source_branch target_branch
+
+git tag 1.0.0 ca1dssvvv32(10 digits of commit id)
