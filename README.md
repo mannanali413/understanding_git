@@ -11,6 +11,16 @@ git config --global user.email mannanali413@github.com
 git init
 ```
 
+## View and Change the remote URL for a Git Repo
+1. To view the remote
+```
+git remote -v
+```
+2. To change the remote URL
+```
+git remote set-url upstream https://github.com/USERNAME/REPO.git
+```
+
 ## Sample add and commit of a file
 1. Add all files ending with `.c` extension
 ```
